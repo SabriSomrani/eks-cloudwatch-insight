@@ -1,0 +1,334 @@
+{
+  "version": 4,
+  "terraform_version": "1.2.3",
+  "serial": 1705,
+  "lineage": "b51b885b-9085-1174-6009-d757594f3355",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "data",
+      "type": "aws_eks_cluster_auth",
+      "name": "cluster_auth",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "eks-cluster",
+            "name": "eks-cluster",
+            "token": "k8s-aws-v1.aHR0cHM6Ly9zdHMuYW1hem9uYXdzLmNvbS8_QWN0aW9uPUdldENhbGxlcklkZW50aXR5JlZlcnNpb249MjAxMS0wNi0xNSZYLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFTSUEyVDNaWEtaNTZOREZUTUdXJTJGMjAyMjEyMjIlMkZ1cy1lYXN0LTElMkZzdHMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIyMTIyMlQxNjQ1MjJaJlgtQW16LUV4cGlyZXM9MCZYLUFtei1TZWN1cml0eS1Ub2tlbj1JUW9KYjNKcFoybHVYMlZqRUhBYURHTmhMV05sYm5SeVlXd3RNU0pHTUVRQ0lETnllRk1DWXlFSUwlMkZNMXdZTWthMGslMkZtbFZJSXBFTWFHM2dzWHh6YzFqRkFpQTh1MkJUMm44YWxRU2xRNnJ0NkFUdk5uJTJGUjdmdEZpeU8wRjNKZDhSUThvU3FMQXdpcCUyRiUyRiUyRiUyRiUyRiUyRiUyRiUyRiUyRiUyRjhCRUFBYUREY3lPVGcyTWpnMU5ESTJOeUlNS0xHRGwxVVhIRlpmOXhvakt0OEM2Z3hyMHZ1UlF3YUJiaHFtU2VVWiUyQnpDYlJXNk5MbHI5VlJ0WjVKTzZKMlVYdFJsdmx3VzNSdW9TZ0lUdkJvWHRWdkh2dDFWbXhjdWVVaXRlcmM3UyUyQlZDTGF2cEdXR1JjNE80ZUMyeWJEbmNKQ05RbU1zQTdYeHRLRnZqNVl4SiUyQnhiUEU1Y21ydGJsMk4xNWRjbXdNWXlVdmkxWHFJalp3MHlQdiUyRnhudExSdnQ2SEJnS2lUa2xJRWdsaXducnJjRlZrcjdjeGFJNTFzVHBwNjZCZzNPWWd6d3dOSUdnUTlnaU9nUkVST29QY2I1akZKV0hYQlRXZU0zcUk0Wmx0MlRDb3ZUMTd0RlMlMkZDdmslMkI1Vjk4aUZXUWJISE1YTFljUGs2aExkdHg5cWlTYld6ODBYZHRCTWVNbUY3dTE1MVJ1dFQlMkZ0U3Y5R05COUtyUUQ1WVdQTlAxblI0Y1NtVXQ3WSUyQk5EQkx6WDZiTGQzdnFyYUwwN2kwJTJGVUVoTTBndFVlcVpXQnNPcG1JTTVBaDVvQ25MQWFnQ2VZdWpYQUNONWN1SXBlNGs0MTJGalVVU1N2JTJCaHlDNTM2a1NEUGJrclFQY085TTcyNmVIblFRaWtnRllTZEd4WE1QU0VrcDBHT3FjQll0V3pKRGJSUmcxQm5WRHJkZzQzTiUyRnZ1b2tIVWJwWEtvNUolMkJpZlpieGdFd0ttU3ZRdGxEeDFHNFFPNU0lMkJENGZIeEZzS1REQjl5YmpONVk3JTJGSTJIUFowVmhJWmxZSVRwa0REVFNCSkF6NUZURUhYa29Fd3NFJTJGJTJGRkNEdW5YeVY2d01jaUhFQ2lIJTJCcDQlMkIwd1NDdmVKSUNsd3c3c3BRWmFSc0R5ZFclMkZXd09aOGx1YjdwV0djNkRrVnNON0xBam15aEFSbzJtdXFHVzdyeUpjbFolMkJlQXBaazQlMkZ2alhQbU5BJTNEJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCUzQngtazhzLWF3cy1pZCZYLUFtei1TaWduYXR1cmU9YmNkNTU5ZTM1YWM4ODMxODNlNDI2NTI3ZjYzNjY0NWE0MjY5ZWY4OGMyZTQ3ZWEwOWE3MDg5ZjhiZWQ4ZjFlZA"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "module": "module.eks_cluster",
+      "mode": "managed",
+      "type": "aws_eks_cluster",
+      "name": "eks_cluster",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:eks:ca-central-1:729862854267:cluster/eks-cluster",
+            "certificate_authority": [
+              {
+                "data": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUMvakNDQWVhZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeU1USXlNakV6TlRNME9Gb1hEVE15TVRJeE9URXpOVE0wT0Zvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBS3BzCm1kYmtsMkJ2L2FlaStCeHFEZ1gzYVM4SkV4U3hHTGRwWWJnN3hTRzYvNkozcVptUkJIMmd5Y0tOeFdpRGg3UkIKZEhrNFM5UVdYVXJtL0hwZmxYSE5SbG9za2tCRjcyRGFvTk83OTFwSnp1cFhTL1YwSXV3Y1o3SEtiQlp1Z2FCbApSNk9ESi9kekY3bVZCWkJZSXVienpPRlBrVG5OM1ZaVjA4RkxyVXJrdHFUR3FwNzVqYmdIQUt5aWlEenpFZ2JaClVJLzhCTS9oYmxnUDRsL1VUV01XSy9tYnFDcWpOTDJlYVB0aS9uTjhNZW90TEMrT1hFZTg0RGsyOGltdCtzYzMKOXEyaDl1S1pTdlZTRVF0MjlGcmx0WmQ2ZTIyMXlIQWJXSkVqS0RKUlBLTWpxSjYxVk1IbzYxNGFPSWx6ME1SMgplQ21GUjAyNWtkbmhpdkJBUmtNQ0F3RUFBYU5aTUZjd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZOdFBCZEtlY1hMODY4VkNJUkplSFo5MDlBbUdNQlVHQTFVZEVRUU8KTUF5Q0NtdDFZbVZ5Ym1WMFpYTXdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBSlhQQjVpb0RMMGdjQ21TNlA4UAprOFRjb0JoV0Q4ak9aRnI4U0hLN1ZYM2NuY0hhTCs2eVlyRjJuNGdoNmVVK1JMU2FKMS83NjRuS1V2Smt6S0g3Cm96c0ZUUE91cGpkdERBdDdzUnByREJEVUwvWkMwMm9oUXBmcS9VQWRWd3FmVjlDZkpnWkZGVFlHemxSbGVGOEgKY2xMQmw1Rk1FYmhPZXdyRVk1TFczWjVTK3pEaHZRQUVXMzBYU1BDZTR0Yk55REJGWmh0Zm0vYzMzL01za1QwdQpEby8rcm94SDdZaDYzSEdLYjQ1cGdHeDZqS0toeFV3OS9KeXpieFEzSHJDZjdkS2dhMUJ1QWtMT3pqVkRocmt5CkJiVEFuUVE0aEl0UVFzWS96SmJpeG4rSHpxRGdpL2RKRkNlTnFIMEFaNFd3NkhIUXl3SFJ0QTJvd0M1bFgwV3YKZUNNPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg=="
+              }
+            ],
+            "cluster_id": null,
+            "created_at": "2022-12-22 13:49:01.907 +0000 UTC",
+            "enabled_cluster_log_types": [],
+            "encryption_config": [],
+            "endpoint": "https://69BDE7B9CA72A366DE5B44200D0261F8.sk1.ca-central-1.eks.amazonaws.com",
+            "id": "eks-cluster",
+            "identity": [
+              {
+                "oidc": [
+                  {
+                    "issuer": "https://oidc.eks.ca-central-1.amazonaws.com/id/69BDE7B9CA72A366DE5B44200D0261F8"
+                  }
+                ]
+              }
+            ],
+            "kubernetes_network_config": [
+              {
+                "ip_family": "ipv4",
+                "service_ipv4_cidr": "172.20.0.0/16",
+                "service_ipv6_cidr": ""
+              }
+            ],
+            "name": "eks-cluster",
+            "outpost_config": [],
+            "platform_version": "eks.3",
+            "role_arn": "arn:aws:iam::729862854267:role/eks-cluster-role",
+            "status": "ACTIVE",
+            "tags": {
+              "Name": "eks-cluster"
+            },
+            "tags_all": {
+              "Name": "eks-cluster"
+            },
+            "timeouts": null,
+            "version": "1.24",
+            "vpc_config": [
+              {
+                "cluster_security_group_id": "sg-08c857467db749ae4",
+                "endpoint_private_access": false,
+                "endpoint_public_access": true,
+                "public_access_cidrs": [
+                  "0.0.0.0/0"
+                ],
+                "security_group_ids": [],
+                "subnet_ids": [
+                  "subnet-00e9698c8d2110226",
+                  "subnet-0f32dbca14a4d97e3"
+                ],
+                "vpc_id": "vpc-0faa34d170c1eb409"
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjkwMDAwMDAwMDAwMCwidXBkYXRlIjozNjAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "module.eks_cluster.aws_iam_role.eks_role",
+            "module.vpc.aws_subnet.private_subnets",
+            "module.vpc.aws_vpc.main"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.eks_cluster",
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "eks_role",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "index_key": 0,
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:iam::729862854267:role/eks-cluster-role",
+            "assume_role_policy": "{\"Statement\":[{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"eks.amazonaws.com\"}}],\"Version\":\"2012-10-17\"}",
+            "create_date": "2022-12-22T13:48:45Z",
+            "description": "",
+            "force_detach_policies": false,
+            "id": "eks-cluster-role",
+            "inline_policy": [],
+            "managed_policy_arns": [],
+            "max_session_duration": 3600,
+            "name": "eks-cluster-role",
+            "name_prefix": "",
+            "path": "/",
+            "permissions_boundary": null,
+            "tags": {},
+            "tags_all": {},
+            "unique_id": "AROA2T3ZXKZ5Z5V3NH7ND"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "module": "module.eks_cluster",
+      "mode": "managed",
+      "type": "kubernetes_namespace",
+      "name": "ns",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "amazon-cloudwatch",
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {
+                  "name": "amazon-cloudwatch"
+                },
+                "name": "amazon-cloudwatch",
+                "resource_version": "25088",
+                "uid": "fd31f985-e585-4945-b8da-0280fe376c3c"
+              }
+            ],
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiZGVsZXRlIjozMDAwMDAwMDAwMDB9fQ==",
+          "dependencies": [
+            "data.aws_eks_cluster_auth.cluster_auth",
+            "module.eks_cluster.aws_eks_cluster.eks_cluster",
+            "module.eks_cluster.aws_iam_role.eks_role",
+            "module.vpc.aws_subnet.private_subnets",
+            "module.vpc.aws_vpc.main"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.vpc",
+      "mode": "managed",
+      "type": "aws_subnet",
+      "name": "private_subnets",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "index_key": 0,
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:ca-central-1:729862854267:subnet/subnet-00e9698c8d2110226",
+            "assign_ipv6_address_on_creation": false,
+            "availability_zone": "ca-central-1a",
+            "availability_zone_id": "cac1-az1",
+            "cidr_block": "10.0.2.0/24",
+            "customer_owned_ipv4_pool": "",
+            "enable_dns64": false,
+            "enable_resource_name_dns_a_record_on_launch": false,
+            "enable_resource_name_dns_aaaa_record_on_launch": false,
+            "id": "subnet-00e9698c8d2110226",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_association_id": "",
+            "ipv6_native": false,
+            "map_customer_owned_ip_on_launch": false,
+            "map_public_ip_on_launch": false,
+            "outpost_arn": "",
+            "owner_id": "729862854267",
+            "private_dns_hostname_type_on_launch": "ip-name",
+            "tags": {
+              "CreationMethod": "Terraform",
+              "Environment": "Dev",
+              "Name": "Private subnet - ca-central-1a for Dev- Main VPC",
+              "Project": "PascalWealth",
+              "Tier": "Private",
+              "created_by": "SRE"
+            },
+            "tags_all": {
+              "CreationMethod": "Terraform",
+              "Environment": "Dev",
+              "Name": "Private subnet - ca-central-1a for Dev- Main VPC",
+              "Project": "PascalWealth",
+              "Tier": "Private",
+              "created_by": "SRE"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-0faa34d170c1eb409"
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6MTIwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMSJ9",
+          "dependencies": [
+            "module.vpc.aws_vpc.main"
+          ]
+        },
+        {
+          "index_key": 1,
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:ca-central-1:729862854267:subnet/subnet-0f32dbca14a4d97e3",
+            "assign_ipv6_address_on_creation": false,
+            "availability_zone": "ca-central-1b",
+            "availability_zone_id": "cac1-az2",
+            "cidr_block": "10.0.3.0/24",
+            "customer_owned_ipv4_pool": "",
+            "enable_dns64": false,
+            "enable_resource_name_dns_a_record_on_launch": false,
+            "enable_resource_name_dns_aaaa_record_on_launch": false,
+            "id": "subnet-0f32dbca14a4d97e3",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_association_id": "",
+            "ipv6_native": false,
+            "map_customer_owned_ip_on_launch": false,
+            "map_public_ip_on_launch": false,
+            "outpost_arn": "",
+            "owner_id": "729862854267",
+            "private_dns_hostname_type_on_launch": "ip-name",
+            "tags": {
+              "CreationMethod": "Terraform",
+              "Environment": "Dev",
+              "Name": "Private subnet - ca-central-1b for Dev- Main VPC",
+              "Project": "PascalWealth",
+              "Tier": "Private",
+              "created_by": "SRE"
+            },
+            "tags_all": {
+              "CreationMethod": "Terraform",
+              "Environment": "Dev",
+              "Name": "Private subnet - ca-central-1b for Dev- Main VPC",
+              "Project": "PascalWealth",
+              "Tier": "Private",
+              "created_by": "SRE"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-0faa34d170c1eb409"
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6MTIwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMSJ9",
+          "dependencies": [
+            "module.vpc.aws_vpc.main"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.vpc",
+      "mode": "managed",
+      "type": "aws_vpc",
+      "name": "main",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:ca-central-1:729862854267:vpc/vpc-0faa34d170c1eb409",
+            "assign_generated_ipv6_cidr_block": false,
+            "cidr_block": "10.0.0.0/16",
+            "default_network_acl_id": "acl-0412bda079fd91822",
+            "default_route_table_id": "rtb-029861c3722280ba1",
+            "default_security_group_id": "sg-070733f25b173cda5",
+            "dhcp_options_id": "dopt-00837d166bde68608",
+            "enable_classiclink": false,
+            "enable_classiclink_dns_support": false,
+            "enable_dns_hostnames": true,
+            "enable_dns_support": true,
+            "enable_network_address_usage_metrics": false,
+            "id": "vpc-0faa34d170c1eb409",
+            "instance_tenancy": "default",
+            "ipv4_ipam_pool_id": null,
+            "ipv4_netmask_length": null,
+            "ipv6_association_id": "",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_network_border_group": "",
+            "ipv6_ipam_pool_id": "",
+            "ipv6_netmask_length": 0,
+            "main_route_table_id": "rtb-029861c3722280ba1",
+            "owner_id": "729862854267",
+            "tags": {
+              "CreationMethod": "Terraform",
+              "Environment": "Dev",
+              "IsMutualized": "True",
+              "Name": "Dev- Main VPC",
+              "Project": "PascalWealth",
+              "created_by": "SRE"
+            },
+            "tags_all": {
+              "CreationMethod": "Terraform",
+              "Environment": "Dev",
+              "IsMutualized": "True",
+              "Name": "Dev- Main VPC",
+              "Project": "PascalWealth",
+              "created_by": "SRE"
+            }
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "create_before_destroy": true
+        }
+      ]
+    }
+  ]
+}
